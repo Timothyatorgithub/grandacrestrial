@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Grand Acres Estate</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- font awesome cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- fonts -->
+        <link rel = "stylesheet" href = "font/fonts.css">
+        <!-- normalize css -->
+        <link rel = "stylesheet" href = "css/normalize.css">
+        <!-- custom css -->
+        <link rel = "stylesheet" href = "css/utility.css">
+        <link rel = "stylesheet" href = "css/style.css">
+        <link rel = "stylesheet" href = "css/responsive.css">
+        
+    </head>
+    <body>
+        <!-- navbar  -->
+        <nav class = "navbar">
+            <div class = "container flex">
+                <!-- <a href="images/logo.jpg" class="log"></a> -->
+                <!-- <img src="images/logo.jpg" class="log"> -->
+                <a href = "index.html" class = "site-brand">
+                    Grand <span>Acres Estate</span>
+                </a>
+
+                <button type = "button" id = "navbar-show-btn" class = "flex">
+                    <i class = "fas fa-bars"></i>
+                </button>
+                <div id = "navbar-collapse">
+                    <button type = "button" id = "navbar-close-btn" class = "flex">
+                        <i class = "fas fa-times"></i>
+                    </button>
+                    <ul class = "navbar-nav">
+                        <li class = "nav-item">
+                            <a href = "Login.html" class = "nav-link active"><b>Login</b></a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "index.html" class = "nav-link active"><b>Home</b></a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "gallery.html" class = "nav-link">Gallery</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "blog.html" class = "nav-link">Blog</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "about.html" class = "nav-link">About</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "contact.html" class = "nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end of navbar  -->
+
+        <!-- header -->
+        <header class = "flex">
+            <div class = "container">
+                <div class = "header-title">
+                    <h1>Turning Dreams into Addresses!</h1>
+                    <p>Welcome to Grand Acres Estate, where your dream of owning a luxurious 
+                        house becomes a reality. We understand the importance of 
+                        finding the perfect homestead for your family, and our 
+                        mission is to provide you with extraordinary residences
+                         that exceed your expectations. From stunning architectural 
+                         designs to exceptional amenities, we bring elegance and
+                          comfort together in every aspect of our properties. 
+                    </p>
+                <div class = "header-form">
+                    <h2>Curate Your Haven: Handpick Your Home with Distinction at Grand Acres Estate:</h2>
+                    <form class = "flex">
+                        <input type = "text" class = "form-control" placeholder="Location">
+                        <input type="date" class = "form-control" placeholder="Date">
+                        <input type="number" class = "form-control" placeholder="Price ($)">
+                        <input type="submit" class = "btn" value = "Search">
+                    </form>
+                </div>
+            </div>
+        </header>
+        <!-- header -->
+
+        <!-- featured section -->
+        <section id = "featured" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">Welcome to Grand Acres Estate - Your Gateway to Luxurious Living</span>
+                    <h2 class = "lg-title">Available Homes:</h2>
+                </div>
+
+                <div class = "featured-row">
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/img1.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Karen
+                            </span>
+                            <div>
+                                <p class = "text">Karen also has a good selection of international schools, shopping centers, restaurants, and recreational facilities. Overall, Karen is a popular choice among ex-pats and wealthy locals, and many people find it to be a great place to live in Nairobi.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/img2.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Runda
+                            </span>
+                            <div>
+                                <p class = "text">Runda provides homes that are well-developed, well-maintained, and safe. Private corporations provide communal utilities, such as water supply, which is provided by Runda Water Limited, an organization of residents. This promotes consistent service delivery and a higher living condition.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/img3.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Muthaiga
+                            </span>
+                            <div>
+                                <p class = "text">At the turn of the 20th century, the area that is today known as Muthaiga was part of the Karura Forest, which was regarded as sacred ground by the Kikuyu people. The name Muthaiga refers to a tree whose bark was used as medicine by the Kikuyu.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/img4.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Gigiri
+                            </span>
+                            <div>
+                                <p class = "text">Gigiri Homestead is a beautiful residence that provides comfortable, convenient and quality accommodation. It is situated within the lovely suburb of Gigiri and is within walking distance of the Village Market shopping centre, UN Head Quarters and US Embassy.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/img5.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Kilimani
+                            </span>
+                            <div>
+                                <p class = "text">Kilimani is located between Kileleshwa and Lavington. It is characterised and famously known for the Nairobi Arboretum that sits close to State House Road.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/Absolute_Reality_v16_villa_0.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Lavington
+                            </span>
+                            <div>
+                                <p class = "text">Lavington is known for some of its popular attractions, which include: Circle Art Gallery. Lavington Mall. Mikono The Refugee Crafts Shop.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of featured section -->
+
+        <!-- services section -->
+        <section id = "services" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">These are just but a few among the many services we offer</span>
+                    <p class="text">We offer affordable packages with great experiences 🤗😚</p>
+                    <h2 class = "lg-title">Our services</h2>
+                </div>
+
+                <div class = "services-row">
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-hotel"></i>
+                        </span>
+                        <h3>Architectural Marvels</h3>
+                        <p class = "text">Discover architectural masterpieces that blend aesthetics and functionality effortlessly. Our expert architects create homes that embody the perfect balance of luxury and livability.</p>
+                        <a href = "contact.html" class = "btn">Contact for more</a>
+                    </div>
+
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-map-marked-alt"></i>
+                        </span>
+                        <h3>Tranquil Retreats</h3>
+                        <p class = "text">Experience the serenity and tranquility of nature every day with our homes nestled amidst serene landscapes. Escape the hustle and bustle of city life and indulge in peace and relaxation.</p>
+                        <a href = "contact.html" class = "btn">Contact for more</a>
+                    </div>
+
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-solid fa-users"></i>
+                        </span>
+                        <h3>Group Travel</h3>
+                        <p class = "text">Embark on shared adventures. From family reunions to corporate gataways, our group travel services ensure seamless coordination, unforgettable experiences and cherished memories</p>
+                        <a href = "contact.html" class = "btn">Contact for more</a>
+                    </div>
+
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-money-bill"></i>
+                        </span>
+                        <h3>Luxurious Amenities</h3>
+                        <p class = "text">Enjoy a life of utmost luxury with our world-class amenities. From lavish swimming pools and state-of-the-art gyms to exclusive clubhouses, every amenity has been thoughtfully designed to elevate your lifestyle.</p>
+                        <a href = "contact.html" class = "btn">Contact for more</a>
+                    </div>
+
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-solid fa-headset"></i>
+                        </span>
+                        <h3>Smart Homes</h3>
+                        <p class = "text">Immerse yourself in the convenience and comfort of a smart home. With cutting-edge technology, our houses offer seamless integration, empowering you to control every aspect of your home with ease.</p>
+                        <a href = "contact.html" class = "btn">Contact for more</a>
+                    </div>
+
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-solid fa-book"></i>
+                        </span>
+                        <h3>Personalized Interiors</h3>
+                        <p class = "text">Let your personality shine through your home with our tailor-made interior design solutions. Our team of expert designers will create a space that resonates with your style and preferences.</p>
+                        <a href = "contact.html" class = "btn">Contact for more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of services section -->
+
+        <!-- testimonials section -->
+        <section id = "testimonials" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">what our clients say about us</span>
+                    <h2 class = "lg-title">Testimonials</h2>
+                </div>
+
+                <div class = "test-row">
+                    <div class = "test-item">
+                        <p class = "text">Living at Estate has been a dream come true. The attention to detail and high-end finishes truly set these homes apart.</p>
+                        <div class = "test-item-info">
+                            <img src = "images/lady1.jpg" alt = "testimonial">
+                            <div>
+                                <h3>Emma T.</h3>
+                                <p class = "text">Karen</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "test-item">
+                        <p class = "text">We were blown away by the stunning architecture and quality of construction. Estate is truly the pinnacle of luxury living.</p>
+                        <div class = "test-item-info">
+                            <img src = "images/img2.jpg" alt = "testimonial">
+                            <div>
+                                <h3>Michael R.</h3>
+                                <p class = "text">Gigiri</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "test-item">
+                        <p class = "text">The amenities and services provided by Estate have exceeded all our expectations. We couldn't be happier with our decision to call it home.</p>
+                        <div class = "test-item-info">
+                            <img src = "images/img3.jpg" alt = "testimonial">
+                            <div>
+                                <h3>Olivia G.</h3>
+                                <p class = "text">Runda</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of testimonials section -->
+
+        <!-- video section -->
+        <section id = "video">
+            <div class = "video-wrapper flex">
+                <video loop>
+                    <source src = "videos/video-section.mp4" type = "video/mp4">
+                </video>
+                <button type = "button" id = "play-btn">
+                    <i class = "fas fa-play"></i>
+                </button>
+            </div>
+        </section>
+        <!-- end of video section -->
+
+        <!-- footer -->
+        <footer class = "py-4">
+            <div class = "container footer-row">
+                <div class = "footer-item">
+                    <a href = "index.html" class = "site-brand">
+                        Grand Acres <span>Estate</span>
+                    </a>
+                    <p class = "text">Transform your vision of a luxurious house into a reality with Estate. Contact us today and let's create your dream home together.</p>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>Follow us on: </h2>
+                    <ul class = "social-links">
+                        <li>
+                            <a href = "https://web.facebook.com/leensadventures">
+                                <i class = "fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "https://www.instagram.com/leensadventure/">
+                                <i class = "fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "https://twitter.com/leen_adventures">
+                                <i class = "fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "https://www.tiktok.com/@leens_adventure?lang=en">
+                                <i class = "fab fa-tiktok"></i>
+                            </a>
+                        </li>
+                        <!-- <li>
+                            <a href = "#">
+                                <i class = "fab fa-google-plus"></i>
+                            </a>
+                        </li> -->
+                    </ul>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>Popular Places:</h2>
+                    <ul>
+                        <li><a href = "https://www.visitacity.com/en/nairobi?gclid=CjwKCAjw1YCkBhAOEiwA5aN4AScFC9ihfloH2EPT7D0BHfQf5Wsm8kvfa1XRw6KTqN6Eda6H2UQtIhoCej0QAvD_BwE">Karen</a></li>
+                        <li><a href = "https://www.getyourguide.com/-l171/?cmp=ga&cq_src=google_ads&cq_cmp=15508267435&cq_con=132581189684&cq_term=kuala%20lumpur%20destinations&cq_med=&cq_plac=&cq_net=s&cq_pos=&cq_plt=gp&campaign_id=15508267435&adgroup_id=132581189684&target_id=kwd-309466505926&loc_physical_ms=1009824&match_type=e&ad_id=569299683558&keyword=kuala%20lumpur%20destinations&ad_position=&feed_item_id=&placement=&device=c&partner_id=CD951&gclid=CjwKCAjw1YCkBhAOEiwA5aN4Ac5yN677XgzLi5jyOxdEm1hm7wTUHMhTXO6Nw8rQ_vRoUi2wGTN87BoC4XYQAvD_BwE">Runda</a></li>
+                        <li><a href = "https://www.fabhotels.com/blog/places-to-visit-in-mumbai/">Gigiri</a></li>
+                        <li><a href = "https://www.go2africa.com/destinations/zanzibar/where-to-go">Lavington</a></li>
+                        <li><a href = "https://www.sydney.com/things-to-do/attractions">Kitusuru</a></li>
+                    </ul>
+                </div>
+
+                <!-- <div class = "subscribe-form footer-item">
+                    <h2>Subscribe for Newsletter!</h2>
+                    <form class = "flex">
+                        <input type = "email" placeholder="Enter Email" class = "form-control">
+                        <input type = "sumbmit" class = "btn" value = "Subscribe">
+                    </form>
+                </div> -->
+            </div>
+        </footer>
+        <div class="footer-bottom">
+            <p>Copyright &copy;2023; Designed by <span class="designer">Grand Acres </span>Estate</p>
+        </div>
+        <!-- end of footer -->
+
+        <!-- js -->
+        <script src = "js/script.js"></script>
+        
+        <script>
+            // play/pause video
+            let video = document.querySelector('.video-wrapper video');
+            document.getElementById('play-btn').addEventListener('click', () => {
+                if(video.paused){
+                    video.play();
+                } else {
+                    video.pause();
+                }
+            });
+        </script>
+    </body>
+</html>
